@@ -1,5 +1,5 @@
 /**
- * @name final?
+ * @name final?2
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -11,7 +11,14 @@
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
 :root {
   --main-color: #746293;
   --hover-color: #483C5B;
@@ -24,14 +31,14 @@
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 100%;
+  --background-brightness: 65%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 0px;
+  --background-blur: 5px;
   --background-overlay: rgb(108,0,255,0.11);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-image: url('https://r4.wallpaperflare.com/wallpaper/946/123/676/made-in-abyss-nanachi-made-in-abyss-anime-underground-snow-hd-wallpaper-077ac608f6f2466cb9698bc4e1485e23.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -97,7 +104,8 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
+  --HSL-server-icon-size: 45px;
+  --HSL-server-spacing: 10px;
 }
 
 /* Any custom CSS below here */
-
