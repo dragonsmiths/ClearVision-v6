@@ -1,5 +1,5 @@
 /**
- * @name final?2
+ * @name final final
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -11,6 +11,9 @@
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
 :root {
   --main-color: #746293;
   --hover-color: #483C5B;
@@ -96,8 +99,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-  --HSL-server-icon-size: 45px;
-  --HSL-server-spacing: 10px;
 }
 
 /* Any custom CSS below here */
+
